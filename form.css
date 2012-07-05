@@ -1,0 +1,20 @@
+.formJs td.control-group {
+	padding:0;
+}
+.formJs td.control-group.error {
+	border:1px solid #b94a48;
+	border-right:0;
+}
+.formJs td.control-group.error:last-child {
+	border-right:1px solid #b94a48;
+}
+.formJs td.control-group.error + td {
+	border-left:1px solid #b94a48;
+}
+.formJs td.control-group input, .formJs td.control-group select, .formJs td.control-group textarea {
+	border-radius:0;
+	border:0;
+	width:100%;
+	box-sizing:border-box;
+	height:26px;
+}
